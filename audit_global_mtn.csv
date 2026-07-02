@@ -1,0 +1,110 @@
+IP;Port;Nom de domaine;SNI;Cle Publique;Date Expiration;Certificat;SHA-256
+52.33.174.51;443/tcp;*.godigital.mtn.ci;*.godigital.mtn.ci;rsa (2048 bits);2026-09-20;VALIDE ✅;N/A21cd8fbb6006823154cd958eab49990f83c7084a70a63b20353343096f2f5fff
+196.47.188.131;443/tcp;4gmap.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.135;443/tcp;accessbillmanager.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.72;443/tcp;admin.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.131;443/tcp;adminannuaire.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.131;443/tcp;afdbportal.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.92;443/tcp;agility.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+141.95.155.207;443/tcp;app.businesscard.mtn.ci;app.businesscard.mtn.ci;rsa (256 bits);2026-09-10;VALIDE ✅;N/Af776b13cb3c60460fab48831b6522c1ace62236d0a321381b853a39205a31b00
+105.235.121.171;443/tcp;app.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+144.76.136.81;443/tcp;appstore.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+104.18.40.69;443/tcp;auth.mtn.ci;auth.mtn.ci;rsa (256 bits);2026-09-14;VALIDE ✅;N/A3d5cfa515d4072773f1a185939474732487e8f72760ed121de33b95354bb6334
+196.47.178.65;443/tcp;autodiscover.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.95;443/tcp;av.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.44;443/tcp;axdas.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;billmap.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;billmaptest.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.5.12;443/tcp;booster.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.240;443/tcp;bulk4scb.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;bulkpayment.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+141.95.155.207;443/tcp;businesscard.mtn.ci;businesscard.mtn.ci;rsa (256 bits);2026-09-10;VALIDE ✅;N/Ab81bd027f21454777ce659f4c80ca87cc92efc4ec4a04c9d4b444755262a604f
+196.47.188.131;443/tcp;businessdocs.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.134;443/tcp;byobapp.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;cartracking.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.94;443/tcp;cbs.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.134;443/tcp;cbs33.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.181;443/tcp;certda.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.131;443/tcp;clfgroup.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+164.160.32.24;443/tcp;cloud.mtn.ci;cloud.mtn.ci;rsa (2048 bits);2026-09-22;VALIDE ✅;N/A0e5328e8732fe895dc22998789dbd8ea88201062de189b298338086a777343fd
+196.47.188.135;443/tcp;consultationciesodecitest.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.72;443/tcp;cp.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;crisis.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.79;443/tcp;dialin.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.66.138;443/tcp;digitalkyc.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.107;443/tcp;dmc-backoffice.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.5.12;443/tcp;ebu-sponsoredata.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;engineroom.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+196.47.188.134;443/tcp;ersapp.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.66;443/tcp;ersweb.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;esim.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+196.47.178.180;443/tcp;evaluations.mtn.ci;*.apps.clus-seamfix.mtn.ci;rsa (2048 bits);2028-04-21;VALIDE ✅;N/A3489a6c5f6d5c80b42db9bca22bf9ab04bbb80a87c035f164d4b0006ab760109
+196.47.188.134;443/tcp;evdapptest.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.134;443/tcp;evdsapp.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.131;443/tcp;eventstalk.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.210;443/tcp;expresswaye1.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;fibre.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+196.47.128.1;443/tcp;ftp.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+54.77.178.126;443/tcp;gameland.mtn.ci;gameland.mtn.ci;rsa (2048 bits);2026-09-08;VALIDE ✅;N/Adf1de06da03fc8ab5f7ad422e741bf58a989c7beeee15360c5cee4061463dac6
+102.220.217.194;443/tcp;gestionsim.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+52.33.174.51;443/tcp;godigital.mtn.ci;godigital.mtn.ci;rsa (2048 bits);2026-07-31;VALIDE ✅;N/Af704cab40de12ef5e13f2a1c87b8d0bfe3925ec8ff1fb7031d4d88b2bdbee780
+105.235.121.171;443/tcp;graphql.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.135;443/tcp;hopemappingsolution.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.51;443/tcp;identification.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.65;443/tcp;imap.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.79;443/tcp;lyncdiscover.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.4;443/tcp;mail.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.21;443/tcp;mail1.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.65;443/tcp;mail2.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.110;443/tcp;mmg.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.134;443/tcp;mobileadvertising.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.12;443/tcp;momopartenaire.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.187;443/tcp;moninternet.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;monticket.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+52.33.174.51;443/tcp;mtn-go-digital.godigital.mtn.ci;*.godigital.mtn.ci;rsa (2048 bits);2026-09-20;VALIDE ✅;N/A21cd8fbb6006823154cd958eab49990f83c7084a70a63b20353343096f2f5fff
+162.159.135.42;443/tcp;mtn.ci;mtn.ci;rsa (256 bits);2026-09-05;VALIDE ✅;N/Abe04a542879163b1bcef4cac6792a6933b133f5037a7e6b7775b3b610173a65c
+196.47.188.134;443/tcp;mtner.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.134;443/tcp;mtnpasswordreset.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.177.34;443/tcp;mx1.mtn.ci;localtestmomoagent.mtn.ci/organizationName=Skan;rsa (2048 bits);2026-11-15;VALIDE ✅;N/A2721385b38d42b4462b69d3b886ffa831222d12948151155954fcc2a966b19fa
+196.47.128.1;443/tcp;ns1.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.13.1;443/tcp;ns2.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.5;443/tcp;partenaires.mobilemoney.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.21;443/tcp;partnermobilemoney.mtn.ci;partnermobilemoney.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-02;VALIDE ✅;N/A21ef5a72525f71792c1e2667473f92aeb3d29d66e46ee38745f16f316c194ea2
+196.47.188.134;443/tcp;passwordregistration.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;pibceao.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+108.139.200.14;443/tcp;promo.esport.mtn.ci;promo.esport.mtn.ci;rsa (2048 bits);2026-12-21;VALIDE ✅;N/A0e2b642db1a763a07c520f9e375a1a266c9edd5a09774bb141bbaa617b3beeea
+196.47.178.88;443/tcp;selfaccess.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.201.33.100;443/tcp;servicesplus.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;servicex.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+105.235.121.171;443/tcp;sharing.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.67.102;443/tcp;sip-02.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+102.133.203.248;443/tcp;sm.mtn.ci;sm.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-10-16;VALIDE ✅;N/Af614600d463fa9ca170f0f1b249c01733c8dc76a32349ef790d966a83705a399
+196.47.178.103;443/tcp;smspro.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+196.47.178.65;443/tcp;smtp.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.6;443/tcp;sqldb.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;staffmeeting.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.68;443/tcp;stats.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.5.18;443/tcp;svr-sdpgwbi-01.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.5.19;443/tcp;svr-sdpgwbi-02.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.42;443/tcp;svr-sdpgwtc-01.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.43;443/tcp;svr-sdpgwtc-02.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.47;443/tcp;svr-sdpgwya-02.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.48;443/tcp;svr-sdpgwyp-01.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.49;443/tcp;svr-sdpgwyp-02.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.131;443/tcp;tas.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.200;443/tcp;top10.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-11-26;VALIDE ✅;N/A1c743c3853effb4e98c3b6df6fe0607e7db49f849a76dfa6a67d35155b308554
+159.100.19.13;443/tcp;tournament.mtn.ci;tournament.mtn.ci;rsa (2048 bits);2026-09-25;VALIDE ✅;N/A2069a768ab5787ccb52007c483c42e3c4de97746cf7c8c4d517332e102f6cf06
+196.47.188.131;443/tcp;trombino.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.93;443/tcp;upc.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.184.10;443/tcp;vascloud.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2025-07-08;VALIDE ✅;N/Adb65a1237e8366c03a3325f4a7ff9e6b4ee30de30c2de382b3b3b18957a0f6b0
+105.235.109.173;443/tcp;vms.standardpro.mtn.ci;*.mtn.ci/organizationName=MOBILE;rsa (2048 bits);2026-06-23;VALIDE ✅;N/Aa55dd943973f1391becb16111431550749751fda7a9690b72b05220164c497de
+105.235.109.172;443/tcp;vmsstaging-standardpro.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.81;443/tcp;webconf.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.178.65;443/tcp;webmail.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+196.47.188.134;443/tcp;www.demo.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+52.85.118.99;443/tcp;www.esport.mtn.ci;www.esport.mtn.ci;rsa (2048 bits);2026-11-09;VALIDE ✅;N/Ac4875d16093a60b36c3513dcef0696de28128adee69eadb16af78d29d6e4ab48
+162.159.135.42;443/tcp;www.mtn.ci;mtn.ci;rsa (256 bits);2026-09-05;VALIDE ✅;N/Abe04a542879163b1bcef4cac6792a6933b133f5037a7e6b7775b3b610173a65c
+159.100.19.13;443/tcp;www.tournament.mtn.ci;tournament.mtn.ci;rsa (2048 bits);2026-09-25;VALIDE ✅;N/A2069a768ab5787ccb52007c483c42e3c4de97746cf7c8c4d517332e102f6cf06
+196.47.188.134;443/tcp;wwwdr.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+105.235.121.171;443/tcp;yellotv.mtn.ci;N/A;rsa (2048 bits);N/A;N/A;N/A
+GLOBAL;SCAN NMAP;Sous-domaines MTN;Total: 108 IP;Statut: Termine;Rapport: Correction effectuee;;

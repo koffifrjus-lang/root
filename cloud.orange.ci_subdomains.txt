@@ -1,0 +1,8 @@
+africa-west1-kubecsi.cloud.orange.ci
+africa-west1-proxy-registry.cloud.orange.ci
+africa-west1-registry.cloud.orange.ci
+africa-west1-vpc.cloud.orange.ci
+docs.cloud.orange.ci
+portal-storage.cloud.orange.ci
+status.cloud.orange.ci
+www.cloud.orange.ci

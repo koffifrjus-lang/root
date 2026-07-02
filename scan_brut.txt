@@ -1,0 +1,714 @@
+# Nmap 7.99 scan initiated Tue Jun 30 02:00:54 2026 as: nmap -p 80,443 -sV -Pn --script ssl-cert -iL moov-africa.ci_subdomains.txt -oN scan_brut.txt
+Failed to resolve "*.moov-africa.ci".
+Failed to resolve "awingu.moov-africa.ci".
+Failed to resolve "mbs2.moov-africa.ci".
+Failed to resolve "moovsite.moov-africa.ci".
+Failed to resolve "webapp1.moov-africa.ci".
+Failed to resolve "webapp2.moov-africa.ci".
+Failed to resolve "webapp3.moov-africa.ci".
+Failed to resolve "webapp4.moov-africa.ci".
+Failed to resolve "webapp5.moov-africa.ci".
+Failed to resolve "webapp6.moov-africa.ci".
+Failed to resolve "webapp7.moov-africa.ci".
+Failed to resolve "webapp8.moov-africa.ci".
+Failed to resolve "webapp9.moov-africa.ci".
+Failed to resolve "www.laboutique.moov-africa.ci".
+Nmap scan report for api.selfcare-staging.moov-africa.ci (135.125.76.128)
+Host is up (0.031s latency).
+rDNS record for 135.125.76.128: ip128.ip-135-125-76.eu
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+443/tcp open  ssl/http Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+| ssl-cert: Subject: commonName=api.selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:api.selfcare-staging.moov-africa.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-06T15:36:24
+| Not valid after:  2026-08-04T15:36:23
+| MD5:     c56a 3224 6544 ad79 b310 e0f7 93b9 6cca
+| SHA-1:   06eb 11b1 3a04 24b9 548d c154 0201 90f6 39d9 a7c8
+|_SHA-256: 5808 3ad2 0162 44b9 aafc c29f 7b03 9029 71aa 8428 adcc 5f54 4dad f3e1 97a2 5591
+|_http-server-header: nginx
+
+Nmap scan report for autodiscover.moov-africa.ci (154.0.31.10)
+Host is up (0.019s latency).
+rDNS record for 154.0.31.10: mail.moov-africa.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  https?
+| ssl-cert: Subject: commonName=mail.moov-africa.ci/organizationName=Moov AFRICA CI/countryName=CI
+| Subject Alternative Name: DNS:mail.moov-africa.ci, DNS:smtp.moov-africa.ci, DNS:mail.etisalat-africa.net, DNS:autodiscover.etisalat-africa.net, DNS:autodiscover.moov-africa.ci, DNS:autodiscover.moov.com, DNS:autodiscover.moovmoney.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-08T00:00:00
+| Not valid after:  2026-09-11T23:59:59
+| MD5:     efc5 8577 0f8f ff2f 50b4 2196 24ed 9c70
+| SHA-1:   e59a df9e 12f3 dcd5 51dd 3f27 de54 ea46 c561 c2af
+|_SHA-256: a934 e59e 983c 94e7 6b4f c0d2 27df a493 b23b 3cc1 c360 d170 5605 51cd 8355 6863
+
+Nmap scan report for laboutique.moov-africa.ci (135.125.76.13)
+Host is up (0.032s latency).
+rDNS record for 135.125.76.13: ip13.ip-135-125-76.eu
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http
+|_http-server-header: <empty>
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Tue, 30 Jun 2026 02:01:10 GMT
+|     Server: 
+|     Content-Length: 199
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>403 Forbidden</title>
+|     </head><body>
+|     <h1>Forbidden</h1>
+|     <p>You don't have permission to access this resource.</p>
+|     </body></html>
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Tue, 30 Jun 2026 02:01:04 GMT
+|     Server: 
+|     Last-Modified: Thu, 21 Jan 2021 17:36:12 GMT
+|     ETag: "54-5b96c8204cee0"
+|     Accept-Ranges: bytes
+|     Content-Length: 84
+|     Vary: Accept-Encoding
+|     Connection: close
+|     Content-Type: text/html
+|     <title> ERROR </title>
+|     Veuillez contacter l'administrateur si vous voyez cette page
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Date: Tue, 30 Jun 2026 02:01:04 GMT
+|     Server: 
+|     Allow: OPTIONS,HEAD,GET,POST
+|     Content-Length: 0
+|     Connection: close
+|     Content-Type: text/html
+|   Help: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:01:26 GMT
+|     Server: 
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|     </body></html>
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:01:05 GMT
+|     Server: 
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|_    </body></html>
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=laboutique.moov-africa.ci
+| Subject Alternative Name: DNS:laboutique.moov-africa.ci, DNS:www.laboutique.moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-12-10T00:00:00
+| Not valid after:  2027-01-09T23:59:59
+| MD5:     832a a646 79cf 8895 09cf fced 3788 0efa
+| SHA-1:   1d17 b6be 05ed 4e2b ccd2 8edc ea5a 9452 31ec 0acb
+|_SHA-256: 1c98 b338 b73e b737 05bf 6bfc f859 f15e 8fcc 0430 83bd 5376 e6e3 bb99 d129 8879
+| fingerprint-strings: 
+|   FourOhFourRequest, HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:01:11 GMT
+|     Server: 
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|     </body></html>
+|   GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:01:10 GMT
+|     Server: 
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|     </body></html>
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:01:22 GMT
+|     Server: 
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|_    </body></html>
+|_http-server-header: <empty>
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%I=7%D=6/30%Time=6A432360%P=aarch64-unknown-linux-andr
+SF:oid%r(GetRequest,14C,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2030\x20
+SF:Jun\x202026\x2002:01:04\x20GMT\r\nServer:\x20\x20\r\nLast-Modified:\x20
+SF:Thu,\x2021\x20Jan\x202021\x2017:36:12\x20GMT\r\nETag:\x20\"54-5b96c8204
+SF:cee0\"\r\nAccept-Ranges:\x20bytes\r\nContent-Length:\x2084\r\nVary:\x20
+SF:Accept-Encoding\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r
+SF:\n\r\n<title>\x20ERROR\x20</title>\nVeuillez\x20contacter\x20l'administ
+SF:rateur\x20si\x20vous\x20voyez\x20cette\x20page\n")%r(HTTPOptions,A0,"HT
+SF:TP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2030\x20Jun\x202026\x2002:01:04\
+SF:x20GMT\r\nServer:\x20\x20\r\nAllow:\x20OPTIONS,HEAD,GET,POST\r\nContent
+SF:-Length:\x200\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n
+SF:\r\n")%r(RTSPRequest,183,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x
+SF:20Tue,\x2030\x20Jun\x202026\x2002:01:05\x20GMT\r\nServer:\x20\x20\r\nCo
+SF:ntent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/h
+SF:tml;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//I
+SF:ETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Req
+SF:uest</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browse
+SF:r\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20
+SF:understand\.<br\x20/>\n</p>\n</body></html>\n")%r(FourOhFourRequest,166
+SF:,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Tue,\x2030\x20Jun\x202026\x
+SF:2002:01:10\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x20199\r\nConne
+SF:ction:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\
+SF:">\n<html><head>\n<title>403\x20Forbidden</title>\n</head><body>\n<h1>F
+SF:orbidden</h1>\n<p>You\x20don't\x20have\x20permission\x20to\x20access\x2
+SF:0this\x20resource\.</p>\n</body></html>\n")%r(Help,183,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nDate:\x20Tue,\x2030\x20Jun\x202026\x2002:01:26\x
+SF:20GMT\r\nServer:\x20\x20\r\nContent-Length:\x20226\r\nConnection:\x20cl
+SF:ose\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTY
+SF:PE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><h
+SF:ead>\n<title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20R
+SF:equest</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this
+SF:\x20server\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></htm
+SF:l>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A432366%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,183,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate
+SF::\x20Tue,\x2030\x20Jun\x202026\x2002:01:10\x20GMT\r\nServer:\x20\x20\r\
+SF:nContent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20tex
+SF:t/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-
+SF://IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20
+SF:Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20bro
+SF:wser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\
+SF:x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(HTTPOptions,183,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Tue,\x2030\x20Jun\x202026
+SF:\x2002:01:11\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x20226\r\nCon
+SF:nection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\
+SF:r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//E
+SF:N\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n</head><body>
+SF:\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x
+SF:20that\x20this\x20server\x20could\x20not\x20understand\.<br\x20/>\n</p>
+SF:\n</body></html>\n")%r(FourOhFourRequest,183,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nDate:\x20Tue,\x2030\x20Jun\x202026\x2002:01:11\x20GMT\r\nS
+SF:erver:\x20\x20\r\nContent-Length:\x20226\r\nConnection:\x20close\r\nCon
+SF:tent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML
+SF:\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<tit
+SF:le>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1
+SF:>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server
+SF:\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(R
+SF:TSPRequest,183,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Tue,\x20
+SF:30\x20Jun\x202026\x2002:01:22\x20GMT\r\nServer:\x20\x20\r\nContent-Leng
+SF:th:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20ch
+SF:arset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x
+SF:20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Request</titl
+SF:e>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\
+SF:x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20understand
+SF:\.<br\x20/>\n</p>\n</body></html>\n");
+
+Nmap scan report for mail.moov-africa.ci (154.0.31.10)
+Host is up (0.017s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  https?
+| ssl-cert: Subject: commonName=mail.moov-africa.ci/organizationName=Moov AFRICA CI/countryName=CI
+| Subject Alternative Name: DNS:mail.moov-africa.ci, DNS:smtp.moov-africa.ci, DNS:mail.etisalat-africa.net, DNS:autodiscover.etisalat-africa.net, DNS:autodiscover.moov-africa.ci, DNS:autodiscover.moov.com, DNS:autodiscover.moovmoney.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-08T00:00:00
+| Not valid after:  2026-09-11T23:59:59
+| MD5:     efc5 8577 0f8f ff2f 50b4 2196 24ed 9c70
+| SHA-1:   e59a df9e 12f3 dcd5 51dd 3f27 de54 ea46 c561 c2af
+|_SHA-256: a934 e59e 983c 94e7 6b4f c0d2 27df a493 b23b 3cc1 c360 d170 5605 51cd 8355 6863
+
+Nmap scan report for moov-africa.ci (45.60.129.11)
+Host is up (0.034s latency).
+Other addresses for moov-africa.ci (not scanned): 45.60.123.11
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  ssl/http
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 705
+|     X-Iinfo: 46-1971224-0 0NNN RT(1782784884408 223) q(0 -1 -1 -1) r(0 -1)
+|     <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=46-1971224-0%200NNN%20RT%281782784884408%20223%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-8783461568676526&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=GET" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-8783461568676526</iframe><
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 711
+|     X-Iinfo: 48-2972428-0 0NNN RT(1782784884996 172) q(0 -1 -1 -1) r(0 -1)
+|_    <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=48-2972428-0%200NNN%20RT%281782784884996%20172%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-12750770104631984&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=OPTIONS" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-12750770104631984</if
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 706
+|     X-Iinfo: 45-1309090-0 0NNN RT(1782784864725 6256) q(0 -1 -1 -1) r(0 -1)
+|     <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=45-1309090-0%200NNN%20RT%281782784864725%206256%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-6902815648842413&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=GET" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-6902815648842413</iframe
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 711
+|     X-Iinfo: 53-4744124-0 0NNN RT(1782784871355 227) q(0 -1 -1 -1) r(0 -1)
+|_    <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=53-4744124-0%200NNN%20RT%281782784871355%20227%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-20230438470746805&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=OPTIONS" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-20230438470746805</if
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A432374%P=aarch64-unknown-linu
+SF:x-android%r(GetRequest,391,"HTTP/1\.1\x20503\x20Service\x20Unavailable\
+SF:r\nContent-Type:\x20text/html\r\nCache-Control:\x20no-cache,\x20no-stor
+SF:e\r\nConnection:\x20close\r\nContent-Length:\x20705\r\nX-Iinfo:\x2046-1
+SF:971224-0\x200NNN\x20RT\(1782784884408\x20223\)\x20q\(0\x20-1\x20-1\x20-
+SF:1\)\x20r\(0\x20-1\)\r\n\r\n<html\x20style=\"height:100%\"><head><META\x
+SF:20NAME=\"ROBOTS\"\x20CONTENT=\"NOINDEX,\x20NOFOLLOW\"><meta\x20name=\"f
+SF:ormat-detection\"\x20content=\"telephone=no\"><meta\x20name=\"viewport\
+SF:"\x20content=\"initial-scale=1\.0\"><meta\x20http-equiv=\"X-UA-Compatib
+SF:le\"\x20content=\"IE=edge,chrome=1\"></head><body\x20style=\"margin:0px
+SF:;height:100%\"><iframe\x20id=\"main-iframe\"\x20src=\"/_Incapsula_Resou
+SF:rce\?CWUDNSAI=27&xinfo=46-1971224-0%200NNN%20RT%281782784884408%20223%2
+SF:9%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-8783461568676
+SF:526&edet=9&cinfo=ffffffff&rpinfo=0&cip=160\.155\.215\.211&mth=GET\"\x20
+SF:frameborder=0\x20width=\"100%\"\x20height=\"100%\"\x20marginheight=\"0p
+SF:x\"\x20marginwidth=\"0px\">Request\x20unsuccessful\.\x20Incapsula\x20in
+SF:cident\x20ID:\x200-8783461568676526</iframe><")%r(HTTPOptions,397,"HTTP
+SF:/1\.1\x20503\x20Service\x20Unavailable\r\nContent-Type:\x20text/html\r\
+SF:nCache-Control:\x20no-cache,\x20no-store\r\nConnection:\x20close\r\nCon
+SF:tent-Length:\x20711\r\nX-Iinfo:\x2048-2972428-0\x200NNN\x20RT\(17827848
+SF:84996\x20172\)\x20q\(0\x20-1\x20-1\x20-1\)\x20r\(0\x20-1\)\r\n\r\n<html
+SF:\x20style=\"height:100%\"><head><META\x20NAME=\"ROBOTS\"\x20CONTENT=\"N
+SF:OINDEX,\x20NOFOLLOW\"><meta\x20name=\"format-detection\"\x20content=\"t
+SF:elephone=no\"><meta\x20name=\"viewport\"\x20content=\"initial-scale=1\.
+SF:0\"><meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome
+SF:=1\"></head><body\x20style=\"margin:0px;height:100%\"><iframe\x20id=\"m
+SF:ain-iframe\"\x20src=\"/_Incapsula_Resource\?CWUDNSAI=27&xinfo=48-297242
+SF:8-0%200NNN%20RT%281782784884996%20172%29%20q%280%20-1%20-1%20-1%29%20r%
+SF:280%20-1%29&incident_id=0-12750770104631984&edet=9&cinfo=ffffffff&rpinf
+SF:o=0&cip=160\.155\.215\.211&mth=OPTIONS\"\x20frameborder=0\x20width=\"10
+SF:0%\"\x20height=\"100%\"\x20marginheight=\"0px\"\x20marginwidth=\"0px\">
+SF:Request\x20unsuccessful\.\x20Incapsula\x20incident\x20ID:\x200-12750770
+SF:104631984</if");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A432366%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,393,"HTTP/1\.1\x20503\x20Service\x20Unavailable
+SF:\r\nContent-Type:\x20text/html\r\nCache-Control:\x20no-cache,\x20no-sto
+SF:re\r\nConnection:\x20close\r\nContent-Length:\x20706\r\nX-Iinfo:\x2045-
+SF:1309090-0\x200NNN\x20RT\(1782784864725\x206256\)\x20q\(0\x20-1\x20-1\x2
+SF:0-1\)\x20r\(0\x20-1\)\r\n\r\n<html\x20style=\"height:100%\"><head><META
+SF:\x20NAME=\"ROBOTS\"\x20CONTENT=\"NOINDEX,\x20NOFOLLOW\"><meta\x20name=\
+SF:"format-detection\"\x20content=\"telephone=no\"><meta\x20name=\"viewpor
+SF:t\"\x20content=\"initial-scale=1\.0\"><meta\x20http-equiv=\"X-UA-Compat
+SF:ible\"\x20content=\"IE=edge,chrome=1\"></head><body\x20style=\"margin:0
+SF:px;height:100%\"><iframe\x20id=\"main-iframe\"\x20src=\"/_Incapsula_Res
+SF:ource\?CWUDNSAI=27&xinfo=45-1309090-0%200NNN%20RT%281782784864725%20625
+SF:6%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-6902815648
+SF:842413&edet=9&cinfo=ffffffff&rpinfo=0&cip=160\.155\.215\.211&mth=GET\"\
+SF:x20frameborder=0\x20width=\"100%\"\x20height=\"100%\"\x20marginheight=\
+SF:"0px\"\x20marginwidth=\"0px\">Request\x20unsuccessful\.\x20Incapsula\x2
+SF:0incident\x20ID:\x200-6902815648842413</iframe")%r(HTTPOptions,397,"HTT
+SF:P/1\.1\x20503\x20Service\x20Unavailable\r\nContent-Type:\x20text/html\r
+SF:\nCache-Control:\x20no-cache,\x20no-store\r\nConnection:\x20close\r\nCo
+SF:ntent-Length:\x20711\r\nX-Iinfo:\x2053-4744124-0\x200NNN\x20RT\(1782784
+SF:871355\x20227\)\x20q\(0\x20-1\x20-1\x20-1\)\x20r\(0\x20-1\)\r\n\r\n<htm
+SF:l\x20style=\"height:100%\"><head><META\x20NAME=\"ROBOTS\"\x20CONTENT=\"
+SF:NOINDEX,\x20NOFOLLOW\"><meta\x20name=\"format-detection\"\x20content=\"
+SF:telephone=no\"><meta\x20name=\"viewport\"\x20content=\"initial-scale=1\
+SF:.0\"><meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrom
+SF:e=1\"></head><body\x20style=\"margin:0px;height:100%\"><iframe\x20id=\"
+SF:main-iframe\"\x20src=\"/_Incapsula_Resource\?CWUDNSAI=27&xinfo=53-47441
+SF:24-0%200NNN%20RT%281782784871355%20227%29%20q%280%20-1%20-1%20-1%29%20r
+SF:%280%20-1%29&incident_id=0-20230438470746805&edet=9&cinfo=ffffffff&rpin
+SF:fo=0&cip=160\.155\.215\.211&mth=OPTIONS\"\x20frameborder=0\x20width=\"1
+SF:00%\"\x20height=\"100%\"\x20marginheight=\"0px\"\x20marginwidth=\"0px\"
+SF:>Request\x20unsuccessful\.\x20Incapsula\x20incident\x20ID:\x200-2023043
+SF:8470746805</if");
+
+Nmap scan report for moovtones.moov-africa.ci (41.191.68.5)
+Host is up (0.023s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  domain   Unbound
+443/tcp open  ssl/http OpenResty web app server
+| ssl-cert: Subject: commonName=*.moov-africa.ci/organizationName=Moov AFRICA CI/countryName=CI
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci, DNS:moovtones.moov-africa.ci, DNS:mbs2.moov-africa.ci, DNS:moovsite.moov-africa.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-11-06T00:00:00
+| Not valid after:  2026-11-24T23:59:59
+| MD5:     4a9d a44b b7df 1ffc 7cbc e017 9dac b4df
+| SHA-1:   90db 97ef 9bdf e4b7 c315 5fc5 dc24 3afc 470b 8a61
+|_SHA-256: 9b42 a415 1df4 6f97 b44d b3c0 eff9 e5c5 7391 438a 4cb3 d327 a282 439a 48a3 20d1
+|_http-server-header: nslb
+
+Nmap scan report for myline.moov-africa.ci (41.191.70.9)
+Host is up (0.022s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  domain  Unbound
+
+Nmap scan report for mymoov.moov-africa.ci (154.0.24.155)
+Host is up (0.038s latency).
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=mymoov.moov-africa.ci/organizationName=MOOV AFRICA (siege)/stateOrProvinceName=District Autonome d'Abidjan/countryName=CI
+| Subject Alternative Name: DNS:mymoov.moov-africa.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-07-10T00:00:00
+| Not valid after:  2026-07-22T23:59:59
+| MD5:     0533 19c4 4268 83de a42c d21b 69bb 8c3b
+| SHA-1:   754c 2c85 a72a a823 982c 4328 5207 6e66 3448 b52c
+|_SHA-256: f5ba fd6c 8735 19d2 1b87 afe6 7eae a3c4 71de 7eb4 bc56 c261 6208 81fe 7268 c642
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:00:10 GMT
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|     </body></html>
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 30 Jun 2026 02:00:21 GMT
+|     Content-Length: 226
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>400 Bad Request</title>
+|     </head><body>
+|     <h1>Bad Request</h1>
+|     <p>Your browser sent a request that this server could not understand.<br />
+|     </p>
+|_    </body></html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A432366%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate
+SF::\x20Tue,\x2030\x20Jun\x202026\x2002:00:10\x20GMT\r\nContent-Length:\x2
+SF:0226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=
+SF:iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML
+SF:\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n</
+SF:head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x
+SF:20request\x20that\x20this\x20server\x20could\x20not\x20understand\.<br\
+SF:x20/>\n</p>\n</body></html>\n")%r(HTTPOptions,178,"HTTP/1\.1\x20400\x20
+SF:Bad\x20Request\r\nDate:\x20Tue,\x2030\x20Jun\x202026\x2002:00:10\x20GMT
+SF:\r\nContent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20
+SF:text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20
+SF:\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\
+SF:x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20
+SF:browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20n
+SF:ot\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(FourOhFourReque
+SF:st,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Tue,\x2030\x20Ju
+SF:n\x202026\x2002:00:10\x20GMT\r\nContent-Length:\x20226\r\nConnection:\x
+SF:20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!D
+SF:OCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<htm
+SF:l><head>\n<title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\
+SF:x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20
+SF:this\x20server\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body><
+SF:/html>\n")%r(RTSPRequest,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDat
+SF:e:\x20Tue,\x2030\x20Jun\x202026\x2002:00:21\x20GMT\r\nContent-Length:\x
+SF:20226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset
+SF:=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTM
+SF:L\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n<
+SF:/head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\
+SF:x20request\x20that\x20this\x20server\x20could\x20not\x20understand\.<br
+SF:\x20/>\n</p>\n</body></html>\n");
+
+Nmap scan report for selfcare-staging.moov-africa.ci (135.125.76.128)
+Host is up (0.028s latency).
+rDNS record for 135.125.76.128: ip128.ip-135-125-76.eu
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+443/tcp open  ssl/http Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+| ssl-cert: Subject: commonName=selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:selfcare-staging.moov-africa.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-02T19:51:51
+| Not valid after:  2026-07-31T19:51:50
+| MD5:     f13b ccb8 d3bb 68a7 d257 45b6 76c8 7238
+| SHA-1:   04b4 c770 5eed 9c95 51f1 1baf d4f4 3e20 b02d e566
+|_SHA-256: 655a 994b 8bcb 8868 dbc8 0706 991d 9619 7cd3 8751 bb43 486c 1f03 5cf6 89b5 fdc5
+|_http-server-header: nginx
+
+Nmap scan report for smtp.moov-africa.ci (154.0.31.9)
+Host is up (0.023s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for storage.selfcare-staging.moov-africa.ci (135.125.76.128)
+Host is up (0.025s latency).
+rDNS record for 135.125.76.128: ip128.ip-135-125-76.eu
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+443/tcp open  ssl/http Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+| ssl-cert: Subject: commonName=storage.selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:storage.selfcare-staging.moov-africa.ci
+| Issuer: commonName=R12/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-06T15:36:06
+| Not valid after:  2026-08-04T15:36:05
+| MD5:     89ee 40b9 f3bc d7e6 1d05 94c1 35e4 3c16
+| SHA-1:   9a0e 310a 532b 21fc baeb 0455 7b22 c936 a1c1 38b4
+|_SHA-256: a5c6 084a 695f e350 46c9 a3e1 bd64 25c0 bba2 d9ea 705d fc0a c9b1 c626 22d4 0701
+|_http-server-header: MinIO
+
+Nmap scan report for www.moov-africa.ci (45.60.123.11)
+Host is up (0.014s latency).
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  ssl/http
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 713
+|     X-Iinfo: 61-206028169-0 0NNN RT(1782784896203 172) q(0 -1 -1 -1) r(0 -1)
+|     <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=61-206028169-0%200NNN%20RT%281782784896203%20172%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-1181116745433023485&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=GET" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-1181116745433023485
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 717
+|     X-Iinfo: 62-214334021-0 0NNN RT(1782784896675 168) q(0 -1 -1 -1) r(0 -1)
+|_    <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=62-214334021-0%200NNN%20RT%281782784896675%20168%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-1232239608013325310&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=OPTIONS" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-123223960801332
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 711
+|     X-Iinfo: 37-39600654-0 0NNN RT(1782784877284 6162) q(0 -1 -1 -1) r(0 -1)
+|     <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=37-39600654-0%200NNN%20RT%281782784877284%206162%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-215608647048037349&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=GET" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-215608647048037349</
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Content-Type: text/html
+|     Cache-Control: no-cache, no-store
+|     Connection: close
+|     Content-Length: 717
+|     X-Iinfo: 61-206026271-0 0NNN RT(1782784883746 151) q(0 -1 -1 -1) r(0 -1)
+|_    <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=27&xinfo=61-206026271-0%200NNN%20RT%281782784883746%20151%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-1181103791811658749&edet=9&cinfo=ffffffff&rpinfo=0&cip=160.155.215.211&mth=OPTIONS" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 0-118110379181165
+|_http-server-header: <empty>
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A432380%P=aarch64-unknown-linu
+SF:x-android%r(GetRequest,39B,"HTTP/1\.1\x20503\x20Service\x20Unavailable\
+SF:r\nContent-Type:\x20text/html\r\nCache-Control:\x20no-cache,\x20no-stor
+SF:e\r\nConnection:\x20close\r\nContent-Length:\x20713\r\nX-Iinfo:\x2061-2
+SF:06028169-0\x200NNN\x20RT\(1782784896203\x20172\)\x20q\(0\x20-1\x20-1\x2
+SF:0-1\)\x20r\(0\x20-1\)\r\n\r\n<html\x20style=\"height:100%\"><head><META
+SF:\x20NAME=\"ROBOTS\"\x20CONTENT=\"NOINDEX,\x20NOFOLLOW\"><meta\x20name=\
+SF:"format-detection\"\x20content=\"telephone=no\"><meta\x20name=\"viewpor
+SF:t\"\x20content=\"initial-scale=1\.0\"><meta\x20http-equiv=\"X-UA-Compat
+SF:ible\"\x20content=\"IE=edge,chrome=1\"></head><body\x20style=\"margin:0
+SF:px;height:100%\"><iframe\x20id=\"main-iframe\"\x20src=\"/_Incapsula_Res
+SF:ource\?CWUDNSAI=27&xinfo=61-206028169-0%200NNN%20RT%281782784896203%201
+SF:72%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-118111674
+SF:5433023485&edet=9&cinfo=ffffffff&rpinfo=0&cip=160\.155\.215\.211&mth=GE
+SF:T\"\x20frameborder=0\x20width=\"100%\"\x20height=\"100%\"\x20marginheig
+SF:ht=\"0px\"\x20marginwidth=\"0px\">Request\x20unsuccessful\.\x20Incapsul
+SF:a\x20incident\x20ID:\x200-1181116745433023485")%r(HTTPOptions,39F,"HTTP
+SF:/1\.1\x20503\x20Service\x20Unavailable\r\nContent-Type:\x20text/html\r\
+SF:nCache-Control:\x20no-cache,\x20no-store\r\nConnection:\x20close\r\nCon
+SF:tent-Length:\x20717\r\nX-Iinfo:\x2062-214334021-0\x200NNN\x20RT\(178278
+SF:4896675\x20168\)\x20q\(0\x20-1\x20-1\x20-1\)\x20r\(0\x20-1\)\r\n\r\n<ht
+SF:ml\x20style=\"height:100%\"><head><META\x20NAME=\"ROBOTS\"\x20CONTENT=\
+SF:"NOINDEX,\x20NOFOLLOW\"><meta\x20name=\"format-detection\"\x20content=\
+SF:"telephone=no\"><meta\x20name=\"viewport\"\x20content=\"initial-scale=1
+SF:\.0\"><meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chro
+SF:me=1\"></head><body\x20style=\"margin:0px;height:100%\"><iframe\x20id=\
+SF:"main-iframe\"\x20src=\"/_Incapsula_Resource\?CWUDNSAI=27&xinfo=62-2143
+SF:34021-0%200NNN%20RT%281782784896675%20168%29%20q%280%20-1%20-1%20-1%29%
+SF:20r%280%20-1%29&incident_id=0-1232239608013325310&edet=9&cinfo=ffffffff
+SF:&rpinfo=0&cip=160\.155\.215\.211&mth=OPTIONS\"\x20frameborder=0\x20widt
+SF:h=\"100%\"\x20height=\"100%\"\x20marginheight=\"0px\"\x20marginwidth=\"
+SF:0px\">Request\x20unsuccessful\.\x20Incapsula\x20incident\x20ID:\x200-12
+SF:3223960801332");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A432373%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,399,"HTTP/1\.1\x20503\x20Service\x20Unavailable
+SF:\r\nContent-Type:\x20text/html\r\nCache-Control:\x20no-cache,\x20no-sto
+SF:re\r\nConnection:\x20close\r\nContent-Length:\x20711\r\nX-Iinfo:\x2037-
+SF:39600654-0\x200NNN\x20RT\(1782784877284\x206162\)\x20q\(0\x20-1\x20-1\x
+SF:20-1\)\x20r\(0\x20-1\)\r\n\r\n<html\x20style=\"height:100%\"><head><MET
+SF:A\x20NAME=\"ROBOTS\"\x20CONTENT=\"NOINDEX,\x20NOFOLLOW\"><meta\x20name=
+SF:\"format-detection\"\x20content=\"telephone=no\"><meta\x20name=\"viewpo
+SF:rt\"\x20content=\"initial-scale=1\.0\"><meta\x20http-equiv=\"X-UA-Compa
+SF:tible\"\x20content=\"IE=edge,chrome=1\"></head><body\x20style=\"margin:
+SF:0px;height:100%\"><iframe\x20id=\"main-iframe\"\x20src=\"/_Incapsula_Re
+SF:source\?CWUDNSAI=27&xinfo=37-39600654-0%200NNN%20RT%281782784877284%206
+SF:162%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29&incident_id=0-21560864
+SF:7048037349&edet=9&cinfo=ffffffff&rpinfo=0&cip=160\.155\.215\.211&mth=GE
+SF:T\"\x20frameborder=0\x20width=\"100%\"\x20height=\"100%\"\x20marginheig
+SF:ht=\"0px\"\x20marginwidth=\"0px\">Request\x20unsuccessful\.\x20Incapsul
+SF:a\x20incident\x20ID:\x200-215608647048037349</")%r(HTTPOptions,39F,"HTT
+SF:P/1\.1\x20503\x20Service\x20Unavailable\r\nContent-Type:\x20text/html\r
+SF:\nCache-Control:\x20no-cache,\x20no-store\r\nConnection:\x20close\r\nCo
+SF:ntent-Length:\x20717\r\nX-Iinfo:\x2061-206026271-0\x200NNN\x20RT\(17827
+SF:84883746\x20151\)\x20q\(0\x20-1\x20-1\x20-1\)\x20r\(0\x20-1\)\r\n\r\n<h
+SF:tml\x20style=\"height:100%\"><head><META\x20NAME=\"ROBOTS\"\x20CONTENT=
+SF:\"NOINDEX,\x20NOFOLLOW\"><meta\x20name=\"format-detection\"\x20content=
+SF:\"telephone=no\"><meta\x20name=\"viewport\"\x20content=\"initial-scale=
+SF:1\.0\"><meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chr
+SF:ome=1\"></head><body\x20style=\"margin:0px;height:100%\"><iframe\x20id=
+SF:\"main-iframe\"\x20src=\"/_Incapsula_Resource\?CWUDNSAI=27&xinfo=61-206
+SF:026271-0%200NNN%20RT%281782784883746%20151%29%20q%280%20-1%20-1%20-1%29
+SF:%20r%280%20-1%29&incident_id=0-1181103791811658749&edet=9&cinfo=fffffff
+SF:f&rpinfo=0&cip=160\.155\.215\.211&mth=OPTIONS\"\x20frameborder=0\x20wid
+SF:th=\"100%\"\x20height=\"100%\"\x20marginheight=\"0px\"\x20marginwidth=\
+SF:"0px\">Request\x20unsuccessful\.\x20Incapsula\x20incident\x20ID:\x200-1
+SF:18110379181165");
+
+Nmap scan report for zerodefaut.moov-africa.ci (40.85.140.236)
+Host is up (0.035s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd
+|_http-server-header: Apache
+443/tcp open  ssl/http Apache httpd
+|_http-server-header: Apache
+| ssl-cert: Subject: commonName=zerodefaut.moov-africa.ci
+| Subject Alternative Name: DNS:zerodefaut.moov-africa.ci
+| Issuer: commonName=Sectigo Public Server Authentication CA DV R36/organizationName=Sectigo Limited/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha384WithRSAEncryption
+| Not valid before: 2025-06-12T00:00:00
+| Not valid after:  2026-07-12T23:59:59
+| MD5:     08b7 6a99 67d1 ba0a 4737 0509 08a8 a3dc
+| SHA-1:   de39 50ff 1a75 e4af 5865 e20b 902d 528e 43b7 2499
+|_SHA-256: eac8 8929 930b c122 47dc 373b fcf7 f3b0 eea3 cda2 0fea 0182 2c31 be3e ec06 087e
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 30 02:03:51 2026 -- 13 IP addresses (13 hosts up) scanned in 177.17 seconds

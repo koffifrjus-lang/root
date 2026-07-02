@@ -1,0 +1,1919 @@
+# Nmap 7.99 scan initiated Tue Jun 30 16:40:07 2026 as: nmap -p 80,443 -sV -Pn --script ssl-cert -iL mtn.ci_subdomains.txt -oN scan_mtn_brut.txt
+Failed to resolve "*.apps.madapi.mtn.ci".
+Failed to resolve "*.mtn.ci".
+Failed to resolve "admin.mobilemoney.mtn.ci".
+Failed to resolve "api.madapi.mtn.ci".
+Failed to resolve "cc.mobilemoney.mtn.ci".
+Failed to resolve "ewp-test.mobilemoney.mtn.ci".
+Failed to resolve "ewp.mobilemoney.mtn.ci".
+Failed to resolve "mscloud.mtn.ci".
+Failed to resolve "mx10.vascloud.mtn.ci".
+Failed to resolve "svr-wedoapptc-01.mtn.ci".
+Failed to resolve "www.ewp.mobilemoney.mtn.ci".
+Nmap scan report for *.godigital.mtn.ci (52.33.174.51)
+Host is up (0.056s latency).
+rDNS record for 52.33.174.51: ec2-52-33-174-51.us-west-2.compute.amazonaws.com
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=*.godigital.mtn.ci
+| Subject Alternative Name: DNS:*.godigital.mtn.ci, DNS:godigital.mtn.ci
+| Issuer: commonName=RapidSSL TLS RSA CA G1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-06T00:00:00
+| Not valid after:  2026-09-20T23:59:59
+| MD5:     d4cf 1889 e57b 4c16 8840 b801 01eb 52a0
+| SHA-1:   a0d2 91e4 3753 bec3 ff3d 8c52 f31f 35fc 8b81 06de
+|_SHA-256: 21cd 8fbb 6006 8231 54cd 958e ab49 990f 83c7 084a 70a6 3b20 3533 4309 6f2f 5fff
+
+Nmap scan report for 4gmap.mtn.ci (196.47.188.131)
+Host is up (0.094s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for accessbillmanager.mtn.ci (196.47.188.135)
+Host is up (0.060s latency).
+rDNS record for 196.47.188.135: host-196-47-188-135.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for admin.mtn.ci (196.47.178.72)
+Host is up (0.079s latency).
+rDNS record for 196.47.178.72: host-196-47-178-72.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for adminannuaire.mtn.ci (196.47.188.131)
+Host is up (0.093s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for afdbportal.mtn.ci (196.47.188.131)
+Host is up (0.092s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for agility.mtn.ci (196.47.184.92)
+Host is up (0.068s latency).
+rDNS record for 196.47.184.92: host-196-47-184-92.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for app.businesscard.mtn.ci (141.95.155.207)
+Host is up (0.12s latency).
+rDNS record for 141.95.155.207: card.pm
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Caddy httpd
+|_http-server-header: Caddy
+443/tcp open  ssl/http Caddy httpd
+|_http-server-header: Caddy
+| ssl-cert: Subject: commonName=app.businesscard.mtn.ci
+| Subject Alternative Name: DNS:app.businesscard.mtn.ci
+| Issuer: commonName=YE1/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-12T22:30:37
+| Not valid after:  2026-09-10T22:30:36
+| MD5:     38c4 6b43 451d a979 ee9c 7117 0c99 7ebf
+| SHA-1:   8140 a731 2b66 ff4c 6d8f 8fe4 0b55 5d34 dc0e 5123
+|_SHA-256: f776 b13c b3c6 0460 fab4 8831 b652 2c1a ce62 236d 0a32 1381 b853 a392 05a3 1b00
+
+Nmap scan report for app.mtn.ci (105.235.121.171)
+Host is up (0.11s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for appstore.mtn.ci (144.76.136.81)
+Host is up (0.073s latency).
+rDNS record for 144.76.136.81: static.81.136.76.144.clients.your-server.de
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for auth.mtn.ci (104.18.40.69)
+Host is up (0.080s latency).
+Other addresses for auth.mtn.ci (not scanned): 172.64.147.187
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+| ssl-cert: Subject: commonName=auth.mtn.ci
+| Subject Alternative Name: DNS:auth.mtn.ci
+| Issuer: commonName=YE2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-16T16:18:42
+| Not valid after:  2026-09-14T16:18:41
+| MD5:     bbc6 0b38 eacf 589a 4809 ce3f ff37 a544
+| SHA-1:   1d64 bc74 e22a 5732 9174 a0ec 700a 329a f077 88b1
+|_SHA-256: 3d5c fa51 5d40 7277 3f1a 1859 3947 4732 487e 8f72 760e d121 de33 b953 54bb 6334
+
+Nmap scan report for autodiscover.mtn.ci (196.47.178.65)
+Host is up (0.050s latency).
+rDNS record for 196.47.178.65: host-196-47-178-65.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for av.mtn.ci (196.47.178.95)
+Host is up (0.061s latency).
+rDNS record for 196.47.178.95: host-196-47-178-95.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+
+Nmap scan report for axdas.mtn.ci (196.47.184.44)
+Host is up (0.013s latency).
+rDNS record for 196.47.184.44: selfreg.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for billmap.mtn.ci (196.47.188.200)
+Host is up (0.090s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp open  ssl/https Microsoft-IIS/10.0
+|_http-server-header: Microsoft-IIS/10.0
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:43:12 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F20E%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,2F70,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:12\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,2F70,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:12\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for billmaptest.mtn.ci (196.47.188.200)
+Host is up (0.088s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:43:12 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F20E%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,2F70,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:12\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,2F70,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:12\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for booster.mtn.ci (105.235.5.12)
+Host is up (0.025s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for bulk4scb.mtn.ci (196.47.178.240)
+Host is up (0.011s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for bulkpayment.mtn.ci (196.47.188.200)
+Host is up (0.087s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp open  ssl/https Microsoft-IIS/10.0
+|_http-server-header: Microsoft-IIS/10.0
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:43:22 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F218%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,2F70,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:22\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:22\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for businesscard.mtn.ci (141.95.155.207)
+Host is up (0.12s latency).
+rDNS record for 141.95.155.207: card.pm
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Caddy httpd
+|_http-server-header: Caddy
+443/tcp open  ssl/http Caddy httpd
+|_http-server-header: Caddy
+| ssl-cert: Subject: commonName=businesscard.mtn.ci
+| Subject Alternative Name: DNS:businesscard.mtn.ci
+| Issuer: commonName=YE1/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-12T22:30:36
+| Not valid after:  2026-09-10T22:30:35
+| MD5:     ab8c 2bd5 7d7f 0970 1fbe 74f9 0189 65bc
+| SHA-1:   2b56 3a80 79b5 b19b f2de 4ff3 5e00 2f61 ad8c 53c5
+|_SHA-256: b81b d027 f214 5477 7ce6 59f4 c80c a87c c92e fc4e c4a0 4c9d 4b44 4755 262a 604f
+
+Nmap scan report for businessdocs.mtn.ci (196.47.188.131)
+Host is up (0.090s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for byobapp.mtn.ci (196.47.188.134)
+Host is up (0.079s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for cartracking.mtn.ci (196.47.188.200)
+Host is up (0.085s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp open  ssl/https Microsoft-IIS/10.0
+|_http-server-header: Microsoft-IIS/10.0
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:43:26 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F21C%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,2F70,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:26\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,2F70,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:43:26\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for cbs.mtn.ci (196.47.184.94)
+Host is up (0.063s latency).
+rDNS record for 196.47.184.94: host-196-47-184-94.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for cbs33.mtn.ci (196.47.188.134)
+Host is up (0.083s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for certda.mtn.ci (196.47.188.181)
+Host is up (0.095s latency).
+rDNS record for 196.47.188.181: host-196-47-188-181.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for clfgroup.mtn.ci (196.47.188.131)
+Host is up (0.088s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for cloud.mtn.ci (164.160.32.24)
+Host is up (0.043s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=cloud.mtn.ci
+| Subject Alternative Name: DNS:cloud.mtn.ci
+| Issuer: commonName=YR2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-06-24T08:20:51
+| Not valid after:  2026-09-22T08:20:50
+| MD5:     a6dd 821a c2d8 7fce 6026 f564 e99c 6606
+| SHA-1:   ff15 ca04 b96c 837b 7d5e 68cd a0ee b70b dec2 81bb
+|_SHA-256: 0e53 28e8 732f e895 dc22 9987 89db d8ea 8820 1062 de18 9b29 8338 086a 7773 43fd
+
+Nmap scan report for consultationciesodecitest.mtn.ci (196.47.188.135)
+Host is up (0.065s latency).
+rDNS record for 196.47.188.135: host-196-47-188-135.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for cp.mtn.ci (196.47.178.72)
+Host is up (0.078s latency).
+rDNS record for 196.47.178.72: host-196-47-178-72.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for crisis.mtn.ci (196.47.188.200)
+Host is up (0.083s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp open  ssl/https Microsoft-IIS/10.0
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+|_http-server-header: Microsoft-IIS/10.0
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:44:07 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F245%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:07\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:07\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for dialin.mtn.ci (196.47.178.79)
+Host is up (0.076s latency).
+rDNS record for 196.47.178.79: host-196-47-178-79.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for digitalkyc.mtn.ci (105.235.66.138)
+Host is up (0.11s latency).
+rDNS record for 105.235.66.138: host-105-235-66-138.afnet.net
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Nmap scan report for dmc-backoffice.mtn.ci (196.47.178.107)
+Host is up (0.051s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for ebu-sponsoredata.mtn.ci (105.235.5.12)
+Host is up (0.062s latency).
+rDNS record for 105.235.5.12: booster.mtn.ci
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Nmap scan report for engineroom.mtn.ci (196.47.188.200)
+Host is up (0.082s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:44:17 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:44:18 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F250%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:17\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:18\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for ersapp.mtn.ci (196.47.188.134)
+Host is up (0.081s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for ersweb.mtn.ci (196.47.178.66)
+Host is up (0.036s latency).
+rDNS record for 196.47.178.66: host-196-47-178-66.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for esim.mtn.ci (196.47.188.200)
+Host is up (0.080s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:44:29 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:44:30 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F25C%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:29\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,2F70,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:30\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for evaluations.mtn.ci (196.47.178.180)
+Host is up (0.092s latency).
+
+PORT    STATE SERVICE        VERSION
+80/tcp  open  domain         Unbound
+443/tcp open  ssl/http-proxy HAProxy http proxy 2.0.0 or later
+| ssl-cert: Subject: commonName=*.apps.clus-seamfix.mtn.ci
+| Subject Alternative Name: DNS:*.apps.clus-seamfix.mtn.ci
+| Issuer: commonName=ingress-operator@1713609396
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-04-22T12:24:42
+| Not valid after:  2028-04-21T12:24:43
+| MD5:     6fef c3f0 3139 4f3f d2ae b54e 5ba3 b601
+| SHA-1:   8cab d6a4 8b93 c1a6 d7d3 ce13 3576 c7cd dfd8 5626
+|_SHA-256: 3489 a6c5 f6d5 c80b 42db 9bca 22bf 9ab0 4bbb 80a8 7c03 5f16 4d4b 0006 ab76 0109
+Service Info: Device: load balancer
+
+Nmap scan report for evdapptest.mtn.ci (196.47.188.134)
+Host is up (0.079s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for evdsapp.mtn.ci (196.47.188.134)
+Host is up (0.077s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for eventstalk.mtn.ci (196.47.188.131)
+Host is up (0.086s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for expresswaye1.mtn.ci (196.47.188.210)
+Host is up (0.013s latency).
+rDNS record for 196.47.188.210: host-196-47-188-210.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for fibre.mtn.ci (196.47.188.200)
+Host is up (0.077s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:44:58 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F278%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:58\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:44:58\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for ftp.mtn.ci (196.47.128.1)
+Host is up (0.051s latency).
+rDNS record for 196.47.128.1: ns1.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for gameland.mtn.ci (54.72.129.210)
+Host is up (0.12s latency).
+Other addresses for gameland.mtn.ci (not scanned): 54.77.178.126
+rDNS record for 54.72.129.210: ec2-54-72-129-210.eu-west-1.compute.amazonaws.com
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=gameland.mtn.ci
+| Subject Alternative Name: DNS:gameland.mtn.ci
+| Issuer: commonName=Amazon RSA 2048 M03/organizationName=Amazon/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-08-10T00:00:00
+| Not valid after:  2026-09-08T23:59:59
+| MD5:     d1b9 7a46 e3f5 e68d ca48 6e79 8ae2 e21e
+| SHA-1:   2689 4acc 2237 2f06 fbac 0b0e 895b 06cd 022a 21f4
+|_SHA-256: df1d e06d a03f c8ab 5f7a d422 e741 bf58 a989 c7be eee1 5360 c5ce e406 1463 dac6
+
+Nmap scan report for gestionsim.mtn.ci (102.220.217.194)
+Host is up (0.092s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  domain   Unbound
+443/tcp open  ssl/http nginx (reverse proxy)
+| ssl-cert: Subject: commonName=gestionsim.mtn.ci
+| Subject Alternative Name: DNS:gestionsim.mtn.ci
+| Issuer: commonName=YR1/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-06-11T17:25:59
+| Not valid after:  2026-09-09T17:25:58
+| MD5:     6b64 e0b3 cc24 d962 7dae 132d 6f2b 3c73
+| SHA-1:   88ec 1dfd 9dc2 95b7 9493 d9c3 2469 c21b fc5f 8869
+|_SHA-256: 6295 d1b2 af0a 104e 3ef3 ea7b f724 a5f7 74d5 9438 0e64 d115 6e85 1691 8cb6 71a7
+
+Nmap scan report for godigital.mtn.ci (52.33.174.51)
+Host is up (0.051s latency).
+rDNS record for 52.33.174.51: ec2-52-33-174-51.us-west-2.compute.amazonaws.com
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=godigital.mtn.ci
+| Subject Alternative Name: DNS:godigital.mtn.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-02T04:44:51
+| Not valid after:  2026-07-31T04:44:50
+| MD5:     11ac 7127 15f9 6767 d48d f37f 112b 2e87
+| SHA-1:   2c66 eacf ee2c 22e7 8138 2f08 e2a5 6dc6 fa74 077f
+|_SHA-256: f704 cab4 0de1 2ef5 e13f 2a1c 87b8 d0bf e392 5ec8 ff1f b703 1d4d 88b2 bdbe e780
+
+Nmap scan report for graphql.mtn.ci (105.235.121.171)
+Host is up (0.055s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for hopemappingsolution.mtn.ci (196.47.188.135)
+Host is up (0.11s latency).
+rDNS record for 196.47.188.135: host-196-47-188-135.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for identification.mtn.ci (196.47.184.51)
+Host is up (0.052s latency).
+rDNS record for 196.47.184.51: host-196-47-184-51.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for imap.mtn.ci (196.47.178.65)
+Host is up (0.045s latency).
+rDNS record for 196.47.178.65: host-196-47-178-65.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for lyncdiscover.mtn.ci (196.47.178.79)
+Host is up (0.075s latency).
+rDNS record for 196.47.178.79: host-196-47-178-79.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for mail.mtn.ci (196.47.178.4)
+Host is up (0.041s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for mail1.mtn.ci (196.47.184.21)
+Host is up (0.048s latency).
+rDNS record for 196.47.184.21: host-196-47-184-21.afnet.net
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Nmap scan report for mail2.mtn.ci (196.47.178.65)
+Host is up (0.033s latency).
+rDNS record for 196.47.178.65: host-196-47-178-65.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for mmg.mtn.ci (196.47.178.110)
+Host is up (0.049s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for mobileadvertising.mtn.ci (196.47.188.134)
+Host is up (0.074s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for momopartenaire.mtn.ci (196.47.178.12)
+Host is up (0.059s latency).
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  domain     Unbound
+443/tcp open  tcpwrapped
+
+Nmap scan report for moninternet.mtn.ci (196.47.178.187)
+Host is up (0.093s latency).
+rDNS record for 196.47.178.187: host-196-47-178-187.afnet.net
+
+PORT    STATE SERVICE        VERSION
+80/tcp  open  http           Apache Tomcat (language: en)
+443/tcp open  ssl/http-proxy HAProxy http proxy 2.0.0 or later
+| ssl-cert: Subject: commonName=*.apps.clus-seamfix.mtn.ci
+| Subject Alternative Name: DNS:*.apps.clus-seamfix.mtn.ci
+| Issuer: commonName=ingress-operator@1713609396
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-04-22T12:24:42
+| Not valid after:  2028-04-21T12:24:43
+| MD5:     6fef c3f0 3139 4f3f d2ae b54e 5ba3 b601
+| SHA-1:   8cab d6a4 8b93 c1a6 d7d3 ce13 3576 c7cd dfd8 5626
+|_SHA-256: 3489 a6c5 f6d5 c80b 42db 9bca 22bf 9ab0 4bbb 80a8 7c03 5f16 4d4b 0006 ab76 0109
+Service Info: Device: load balancer
+
+Nmap scan report for monticket.mtn.ci (196.47.188.200)
+Host is up (0.071s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:45:55 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:45:56 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F2B2%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:45:55\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:45:56\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for mtn-go-digital.godigital.mtn.ci (52.33.174.51)
+Host is up (0.052s latency).
+rDNS record for 52.33.174.51: ec2-52-33-174-51.us-west-2.compute.amazonaws.com
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=*.godigital.mtn.ci
+| Subject Alternative Name: DNS:*.godigital.mtn.ci, DNS:godigital.mtn.ci
+| Issuer: commonName=RapidSSL TLS RSA CA G1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-06T00:00:00
+| Not valid after:  2026-09-20T23:59:59
+| MD5:     d4cf 1889 e57b 4c16 8840 b801 01eb 52a0
+| SHA-1:   a0d2 91e4 3753 bec3 ff3d 8c52 f31f 35fc 8b81 06de
+|_SHA-256: 21cd 8fbb 6006 8231 54cd 958e ab49 990f 83c7 084a 70a6 3b20 3533 4309 6f2f 5fff
+
+Nmap scan report for mtn.ci (162.159.135.42)
+Host is up (0.035s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=mtn.ci
+| Subject Alternative Name: DNS:*.mtn.ci, DNS:mtn.ci
+| Issuer: commonName=YE2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-07T01:54:51
+| Not valid after:  2026-09-05T01:54:50
+| MD5:     f732 717b 6d0c 5e90 83b6 eae2 d0df e866
+| SHA-1:   7e9d ca0c 2cc8 0e81 e163 29dc 0761 bd5d 530b 329f
+|_SHA-256: be04 a542 8791 63b1 bcef 4cac 6792 a693 3b13 3f50 37a7 e6b7 775b 3b61 0173 a65c
+|_http-server-header: cloudflare
+
+Nmap scan report for mtner.mtn.ci (196.47.188.134)
+Host is up (0.072s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for mtnpasswordreset.mtn.ci (196.47.188.134)
+Host is up (0.066s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for mx1.mtn.ci (196.47.177.34)
+Host is up (0.039s latency).
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  ssl/http   Apache Tomcat (language: en)
+| ssl-cert: Subject: commonName=localtestmomoagent.mtn.ci/organizationName=Skan Technologies/stateOrProvinceName=VA/countryName=FR
+| Issuer: commonName=mtn-SVR-PKIISS-01-CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-08-27T16:54:17
+| Not valid after:  2026-11-15T03:32:44
+| MD5:     22e6 e84b d9d0 1973 41dd cbeb 6dc7 0dcc
+| SHA-1:   bd1b 5cb9 67f1 cc4d 0d6c 0b49 3987 b841 5d6b dda1
+|_SHA-256: 2721 385b 38d4 2b44 62b6 9d3b 886f fa83 1222 d129 4815 1155 954f cc2a 966b 19fa
+
+Nmap scan report for ns1.mtn.ci (196.47.128.1)
+Host is up (0.045s latency).
+rDNS record for 196.47.128.1: ns1.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for ns2.mtn.ci (105.235.13.1)
+Host is up (0.11s latency).
+rDNS record for 105.235.13.1: host-105-235-13-1.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for partenaires.mobilemoney.mtn.ci (196.47.178.5)
+Host is up (0.037s latency).
+rDNS record for 196.47.178.5: host-196-47-178-5.afnet.net
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Nmap scan report for partnermobilemoney.mtn.ci (196.47.188.21)
+Host is up (0.046s latency).
+rDNS record for 196.47.188.21: host-196-47-188-21.afnet.net
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  domain     Unbound
+443/tcp open  ssl/https?
+| ssl-cert: Subject: commonName=partnermobilemoney.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:partnermobilemoney.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-11-03T00:00:00
+| Not valid after:  2026-11-02T23:59:59
+| MD5:     3cd7 9360 cfca 05ee 883a 1ccb 0441 435a
+| SHA-1:   4698 f218 9d20 590f 429a d86f d5b7 7e9f b0c4 f698
+|_SHA-256: 21ef 5a72 525f 7179 2c1e 2667 473f 92ae b3d2 9d66 e46e e387 45f1 6f31 6c19 4ea2
+
+Nmap scan report for passwordregistration.mtn.ci (196.47.188.134)
+Host is up (0.064s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for pibceao.mtn.ci (196.47.188.200)
+Host is up (0.069s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:46:26 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:46:27 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F2D0%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:46:26\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:46:27\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for promo.esport.mtn.ci (108.139.200.85)
+Host is up (0.069s latency).
+Other addresses for promo.esport.mtn.ci (not scanned): 108.139.200.4 108.139.200.6 108.139.200.14
+rDNS record for 108.139.200.85: server-108-139-200-85.los50.r.cloudfront.net
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Amazon CloudFront httpd
+| http-server-header: 
+|   Apache
+|_  CloudFront
+443/tcp open  ssl/http Amazon CloudFront httpd
+| ssl-cert: Subject: commonName=promo.esport.mtn.ci
+| Subject Alternative Name: DNS:promo.esport.mtn.ci
+| Issuer: commonName=Amazon RSA 2048 M01/organizationName=Amazon/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-06-07T00:00:00
+| Not valid after:  2026-12-21T23:59:59
+| MD5:     ae07 bb88 a69a 3336 f2e2 3fa9 2b62 8667
+| SHA-1:   5f86 11e5 c9fa b26b c09a 8da4 44b2 18a3 32dc c16d
+|_SHA-256: 0e2b 642d b1a7 63a0 7c52 0f9e 375a 1a26 6c9e dd5a 0977 4bb1 41bb aa61 7b3b eeea
+| http-server-header: 
+|   Apache
+|_  CloudFront
+
+Nmap scan report for selfaccess.mtn.ci (196.47.188.134)
+Host is up (0.066s latency).
+Other addresses for selfaccess.mtn.ci (not scanned): 196.47.178.88
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for servicesplus.mtn.ci (196.201.33.100)
+Host is up (0.056s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for servicex.mtn.ci (196.47.188.200)
+Host is up (0.068s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:46:43 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F2E1%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:46:43\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,2F70,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:46:43\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for sharing.mtn.ci (105.235.121.171)
+Host is up (0.054s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for sip-02.mtn.ci (105.235.67.102)
+Host is up (0.025s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for sm.mtn.ci (102.133.203.248)
+Host is up (0.11s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Microsoft Azure Application Gateway v2
+|_http-server-header: Microsoft-Azure-Application-Gateway/v2
+443/tcp open  ssl/http Microsoft Azure Application Gateway v2
+|_http-server-header: Microsoft-Azure-Application-Gateway/v2
+| ssl-cert: Subject: commonName=sm.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:sm.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-10-17T00:00:00
+| Not valid after:  2026-10-16T23:59:59
+| MD5:     a882 f883 c724 5e20 54af 2d9c 6667 0c25
+| SHA-1:   9813 5eb5 7c13 2d49 5444 d788 d732 0745 70e5 82cb
+|_SHA-256: f614 600d 463f a9ca 170f 0f1b 249c 0173 3c8d c76a 3234 9ef7 90d9 66a8 3705 a399
+
+Nmap scan report for smspro.mtn.ci (196.47.178.103)
+Host is up (0.023s latency).
+rDNS record for 196.47.178.103: host-196-47-178-103.afnet.net
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  domain   Unbound
+443/tcp open  ssl/http nginx 1.30.3
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+|_http-server-header: nginx/1.30.3
+
+Nmap scan report for smtp.mtn.ci (196.47.178.65)
+Host is up (0.032s latency).
+rDNS record for 196.47.178.65: host-196-47-178-65.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for sqldb.mtn.ci (196.47.178.6)
+Host is up (0.033s latency).
+rDNS record for 196.47.178.6: host-196-47-178-6.afnet.net
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Nmap scan report for staffmeeting.mtn.ci (196.47.188.200)
+Host is up (0.069s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp open  ssl/https Microsoft-IIS/10.0
+|_http-server-header: Microsoft-IIS/10.0
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:47:08 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:47:09 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F2FB%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:47:08\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:47:09\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for stats.mtn.ci (196.47.178.68)
+Host is up (0.035s latency).
+rDNS record for 196.47.178.68: host-196-47-178-68.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwbi-01.mtn.ci (105.235.5.18)
+Host is up (0.091s latency).
+rDNS record for 105.235.5.18: host-105-235-5-18.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwbi-02.mtn.ci (105.235.5.19)
+Host is up (0.051s latency).
+rDNS record for 105.235.5.19: host-105-235-5-19.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwtc-01.mtn.ci (196.47.188.42)
+Host is up (0.025s latency).
+rDNS record for 196.47.188.42: host-196-47-188-42.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwtc-02.mtn.ci (196.47.188.43)
+Host is up (0.014s latency).
+rDNS record for 196.47.188.43: host-196-47-188-43.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwya-02.mtn.ci (196.47.188.47)
+Host is up (0.017s latency).
+rDNS record for 196.47.188.47: host-196-47-188-47.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwyp-01.mtn.ci (196.47.188.48)
+Host is up (0.014s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for svr-sdpgwyp-02.mtn.ci (196.47.188.49)
+Host is up (0.010s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for tas.mtn.ci (196.47.188.131)
+Host is up (0.084s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for top10.mtn.ci (196.47.188.200)
+Host is up (0.066s latency).
+rDNS record for 196.47.188.200: testengineroom.mtn.ci
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  domain    Unbound
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp open  ssl/https Microsoft-IIS/10.0
+|_http-server-header: Microsoft-IIS/10.0
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Tue Jun 30 16:47:40 2026 GMT
+|     Content-Length: 57475
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0"><style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff;} h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-12T00:00:00
+| Not valid after:  2026-11-26T23:59:59
+| MD5:     5486 b54f 111c 6441 16c1 0f14 acf8 e90c
+| SHA-1:   49f9 243b 5a26 5d66 6bbd dbb3 da7b dcbd a750 2ce9
+|_SHA-256: 1c74 3c38 53ef fb4e 98c3 b6df 6fe0 607e 7db4 9f84 9a76 dfa6 a67d 3515 5b30 8554
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=6/30%Time=6A43F31A%P=aarch64-unknown-lin
+SF:ux-android%r(GetRequest,1FA0,"HTTP/1\.1\x20503\x20Service\x20Unavailabl
+SF:e\r\nDate:\x20Tue\x20Jun\x2030\x2016:47:40\x202026\x20GMT\r\nContent-Le
+SF:ngth:\x2057475\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
+SF:n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20T
+SF:ransitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-1999122
+SF:4/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20minimum-scal
+SF:e=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x20\x20\x20\x20\
+SF:x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20fon
+SF:t-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x
+SF:20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20\x20h1,\x20h2\x
+SF:20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20
+SF:padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20div\x20
+SF:{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x20\x20\x20\x20di
+SF:v\.header\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgo
+SF:AAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZV
+SF:JlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpb
+SF:j0i77u/IiBpZD0iVzVNME1")%r(HTTPOptions,1FA0,"HTTP/1\.1\x20503\x20Servic
+SF:e\x20Unavailable\r\nDate:\x20Tue\x20Jun\x2030\x2016:47:40\x202026\x20GM
+SF:T\r\nContent-Length:\x2057475\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTM
+SF:L\x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-
+SF:html401-19991224/loose\.dtd\"><html><head><meta\x20name=\"viewport\"\x2
+SF:0content=\"width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\
+SF:x20minimum-scale=1,\x20user-scalable=0\"><style\x20type=\"text/css\">\x
+SF:20\x20\x20\x20\x20\x20\x20html,\x20body\x20{\x20margin:\x200;\x20paddin
+SF:g:\x200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-s
+SF:ize:\x2010pt;\x20background-color:\x20#ffffff;}\x20\x20\x20\x20\x20\x20
+SF:\x20h1,\x20h2\x20{\x20height:\x2082px;\x20text-indent:\x20-999em;\x20ma
+SF:rgin:\x200;\x20padding:\x200;\x20margin:\x200;\x20}\x20\x20\x20\x20\x20
+SF:\x20\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20\x20\x20\x2
+SF:0\x20\x20\x20div\.header\x20{\x20background:\x20url\(data:image/png;bas
+SF:e64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQB
+SF:BZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eH
+SF:BhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1");
+
+Nmap scan report for tournament.mtn.ci (159.100.19.13)
+Host is up (0.055s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd
+|_http-server-header: nginx
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=tournament.mtn.ci
+| Subject Alternative Name: DNS:tournament.mtn.ci, DNS:www.tournament.mtn.ci
+| Issuer: commonName=YR1/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-06-27T08:05:54
+| Not valid after:  2026-09-25T08:05:53
+| MD5:     5fe9 d2d6 1316 d91e 342d aad1 4424 69f7
+| SHA-1:   59dc c975 3d25 89c0 bbfb b698 4100 af08 7b25 073b
+|_SHA-256: 2069 a768 ab57 87cc b520 07c4 83c4 2e3c 4de9 7746 cf7c 8c4d 5173 32e1 02f6 cf06
+Service Info: Host: default
+
+Nmap scan report for trombino.mtn.ci (196.47.188.131)
+Host is up (0.081s latency).
+rDNS record for 196.47.188.131: gestionpro.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for upc.mtn.ci (196.47.184.93)
+Host is up (0.065s latency).
+rDNS record for 196.47.184.93: host-196-47-184-93.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for vascloud.mtn.ci (196.47.184.10)
+Host is up (0.029s latency).
+rDNS record for 196.47.184.10: mx10.vascloud.mtn.ci
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  domain   Unbound
+443/tcp open  ssl/http Apache httpd
+|_http-server-header: Apache
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-06-07T00:00:00
+| Not valid after:  2025-07-08T23:59:59
+| MD5:     1a8c 05ba 3e91 b278 8fc8 8cbe da8c 73e2
+| SHA-1:   cb9f b528 2516 30f8 7cf6 8ce3 db51 9ac9 6eb1 6f06
+|_SHA-256: db65 a123 7e83 66c0 3a33 25f4 a7ff 9e6b 4ee3 0de3 0c2d e382 b3b3 b189 57a0 f6b0
+
+Nmap scan report for vms.standardpro.mtn.ci (105.235.109.173)
+Host is up (0.094s latency).
+rDNS record for 105.235.109.173: host-105-235-109-173.afnet.net
+
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      nginx
+443/tcp open  ssl/https nginx
+|_http-server-header: nginx
+| ssl-cert: Subject: commonName=*.mtn.ci/organizationName=MOBILE TELEPHONE NETWORK COTE D'IVOIRE SA/countryName=CI
+| Subject Alternative Name: DNS:*.mtn.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-06-24T00:00:00
+| Not valid after:  2026-06-23T23:59:59
+| MD5:     c290 a4c0 aed6 f188 450d 0dab 37bb 7882
+| SHA-1:   8101 b48d 861f 23a1 cb6f 989d b84a 6760 e569 9b60
+|_SHA-256: a55d d943 973f 1391 becb 1611 1431 5507 4975 1fda 7a96 90b7 2b05 2201 64c4 97de
+
+Nmap scan report for vmsstaging-standardpro.mtn.ci (105.235.109.172)
+Host is up (0.10s latency).
+rDNS record for 105.235.109.172: host-105-235-109-172.afnet.net
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Nmap scan report for webconf.mtn.ci (196.47.178.81)
+Host is up (0.071s latency).
+rDNS record for 196.47.178.81: host-196-47-178-81.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for webmail.mtn.ci (196.47.178.65)
+Host is up (0.038s latency).
+rDNS record for 196.47.178.65: host-196-47-178-65.afnet.net
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for www.demo.mtn.ci (196.47.188.134)
+Host is up (0.062s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for www.esport.mtn.ci (52.85.118.99)
+Host is up (0.060s latency).
+Other addresses for www.esport.mtn.ci (not scanned): 52.85.118.9 52.85.118.29 52.85.118.46
+rDNS record for 52.85.118.99: server-52-85-118-99.mrs53.r.cloudfront.net
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Amazon CloudFront httpd
+| http-server-header: 
+|   Apache
+|_  CloudFront
+443/tcp open  ssl/http Amazon CloudFront httpd
+| ssl-cert: Subject: commonName=www.esport.mtn.ci
+| Subject Alternative Name: DNS:www.esport.mtn.ci
+| Issuer: commonName=Amazon RSA 2048 M01/organizationName=Amazon/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-04-26T00:00:00
+| Not valid after:  2026-11-09T23:59:59
+| MD5:     2b6f efde cdb4 8cbc ffbf e4b6 6f5c ba94
+| SHA-1:   3ded eb2b fc4d 5896 f494 50fb 06a0 87ad 335e 204e
+|_SHA-256: c487 5d16 093a 60b3 6c35 13dc ef06 96de 2812 8ade e69e adb1 6af7 8d29 d6e4 ab48
+| http-server-header: 
+|   Apache
+|_  CloudFront
+
+Nmap scan report for www.mtn.ci (162.159.135.42)
+Host is up (0.029s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=mtn.ci
+| Subject Alternative Name: DNS:*.mtn.ci, DNS:mtn.ci
+| Issuer: commonName=YE2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-07T01:54:51
+| Not valid after:  2026-09-05T01:54:50
+| MD5:     f732 717b 6d0c 5e90 83b6 eae2 d0df e866
+| SHA-1:   7e9d ca0c 2cc8 0e81 e163 29dc 0761 bd5d 530b 329f
+|_SHA-256: be04 a542 8791 63b1 bcef 4cac 6792 a693 3b13 3f50 37a7 e6b7 775b 3b61 0173 a65c
+|_http-server-header: cloudflare
+
+Nmap scan report for www.tournament.mtn.ci (159.100.19.13)
+Host is up (0.093s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd
+|_http-server-header: nginx
+443/tcp open  ssl/http nginx
+| ssl-cert: Subject: commonName=tournament.mtn.ci
+| Subject Alternative Name: DNS:tournament.mtn.ci, DNS:www.tournament.mtn.ci
+| Issuer: commonName=YR1/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-06-27T08:05:54
+| Not valid after:  2026-09-25T08:05:53
+| MD5:     5fe9 d2d6 1316 d91e 342d aad1 4424 69f7
+| SHA-1:   59dc c975 3d25 89c0 bbfb b698 4100 af08 7b25 073b
+|_SHA-256: 2069 a768 ab57 87cc b520 07c4 83c4 2e3c 4de9 7746 cf7c 8c4d 5173 32e1 02f6 cf06
+Service Info: Host: default
+
+Nmap scan report for wwwdr.mtn.ci (196.47.188.134)
+Host is up (0.059s latency).
+rDNS record for 196.47.188.134: mobileadvertising.mtn.ci
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Nmap scan report for yellotv.mtn.ci (105.235.121.171)
+Host is up (0.11s latency).
+
+PORT    STATE SERVICE VERSION
+80/tcp  open  domain  Unbound
+443/tcp open  domain  Unbound
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 30 16:57:21 2026 -- 108 IP addresses (108 hosts up) scanned in 1034.06 seconds

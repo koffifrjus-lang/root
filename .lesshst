@@ -1,0 +1,4 @@
+.less-history-file:
+.search
+"<[^>]*>/\n/g' transcript.html | grep -v '^[[:space:]]*$' > rapport_restaure_propre.txt
+.mark

@@ -1,0 +1,2 @@
+# Nmap 7.99 scan initiated Sun Jun 28 12:03:45 2026 as: nmap -oN rapport.txt 192.168.1.1
+# Nmap done at Sun Jun 28 12:03:48 2026 -- 1 IP address (0 hosts up) scanned in 3.07 seconds
