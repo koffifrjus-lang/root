@@ -16,13 +16,36 @@
   },
   "inbounds": [
     {
-      "type": "tun",
-      "address": ["192.168.178.1/22"],
-      "auto_route": true,
-      "strict_route": true
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 2080
     }
   ],
   "outbounds": [
+    {
+      "type": "selector",
+      "tag": "vpn-secure",
+      "outbounds": [
+        "serveur-principal",
+        "serveur-secours"
+      ]
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "serveur-principal",
+      "server": "102.213.173.250",
+      "server_port": 8388,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "mJ/SHpeXHH8MzGu14buLnSnbVDjNvOdpJwicX6ZZIpQ="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "serveur-secours",
+      "server": "102.213.173.250",
+      "server_port": 8388,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "mJ/SHpeXHH8MzGu14buLnSnbVDjNvOdpJwicX6ZZIpQ="
+    },
     {
       "type": "direct",
       "tag": "direct"
@@ -40,7 +63,8 @@
       }
     ],
     "default_domain_resolver": "local",
-    "auto_detect_interface": true
+    "auto_detect_interface": true,
+    "final": "vpn-secure"
   },
   "experimental": {
     "clash_api": {
@@ -48,5 +72,3 @@
     }
   }
 }
-
-
