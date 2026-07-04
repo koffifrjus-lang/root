@@ -1,0 +1,571 @@
+# Nmap 7.99 scan initiated Wed Jul  1 01:32:42 2026 as: nmap -p 80,443 --script ssl-cert -oN scan_brut.txt -iL mes_cibles.txt
+Failed to resolve "*.moov-africa.ci".
+Failed to resolve "awingu.moov-africa.ci".
+Failed to resolve "mbs2.moov-africa.ci".
+Failed to resolve "moovsite.moov-africa.ci".
+Failed to resolve "webapp1.moov-africa.ci".
+Failed to resolve "webapp2.moov-africa.ci".
+Failed to resolve "webapp3.moov-africa.ci".
+Failed to resolve "webapp4.moov-africa.ci".
+Failed to resolve "webapp5.moov-africa.ci".
+Failed to resolve "webapp6.moov-africa.ci".
+Failed to resolve "webapp7.moov-africa.ci".
+Failed to resolve "webapp8.moov-africa.ci".
+Failed to resolve "webapp9.moov-africa.ci".
+Failed to resolve "www.laboutique.moov-africa.ci".
+Nmap scan report for api.selfcare-staging.moov-africa.ci (135.125.76.128)
+Host is up (0.010s latency).
+rDNS record for 135.125.76.128: ip128.ip-135-125-76.eu
+
+PORT    STATE SERVICE
+80/tcp  open  http
+| ssl-cert: Subject: commonName=api.selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:api.selfcare-staging.moov-africa.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-06T15:36:24
+| Not valid after:  2026-08-04T15:36:23
+| MD5:     c56a 3224 6544 ad79 b310 e0f7 93b9 6cca
+| SHA-1:   06eb 11b1 3a04 24b9 548d c154 0201 90f6 39d9 a7c8
+|_SHA-256: 5808 3ad2 0162 44b9 aafc c29f 7b03 9029 71aa 8428 adcc 5f54 4dad f3e1 97a2 5591
+443/tcp open  https
+| ssl-cert: Subject: commonName=api.selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:api.selfcare-staging.moov-africa.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-06T15:36:24
+| Not valid after:  2026-08-04T15:36:23
+| MD5:     c56a 3224 6544 ad79 b310 e0f7 93b9 6cca
+| SHA-1:   06eb 11b1 3a04 24b9 548d c154 0201 90f6 39d9 a7c8
+|_SHA-256: 5808 3ad2 0162 44b9 aafc c29f 7b03 9029 71aa 8428 adcc 5f54 4dad f3e1 97a2 5591
+
+Nmap scan report for autodiscover.moov-africa.ci (154.0.31.10)
+Host is up (0.026s latency).
+rDNS record for 154.0.31.10: mail.moov-africa.ci
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+| ssl-cert: Subject: commonName=mail.moov-africa.ci/organizationName=Moov AFRICA CI/countryName=CI
+| Subject Alternative Name: DNS:mail.moov-africa.ci, DNS:smtp.moov-africa.ci, DNS:mail.etisalat-africa.net, DNS:autodiscover.etisalat-africa.net, DNS:autodiscover.moov-africa.ci, DNS:autodiscover.moov.com, DNS:autodiscover.moovmoney.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-08T00:00:00
+| Not valid after:  2026-09-11T23:59:59
+| MD5:     efc5 8577 0f8f ff2f 50b4 2196 24ed 9c70
+| SHA-1:   e59a df9e 12f3 dcd5 51dd 3f27 de54 ea46 c561 c2af
+|_SHA-256: a934 e59e 983c 94e7 6b4f c0d2 27df a493 b23b 3cc1 c360 d170 5605 51cd 8355 6863
+
+Nmap scan report for laboutique.moov-africa.ci (135.125.76.13)
+Host is up (0.014s latency).
+rDNS record for 135.125.76.13: ip13.ip-135-125-76.eu
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+| ssl-cert: Subject: commonName=laboutique.moov-africa.ci
+| Subject Alternative Name: DNS:laboutique.moov-africa.ci, DNS:www.laboutique.moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-12-10T00:00:00
+| Not valid after:  2027-01-09T23:59:59
+| MD5:     832a a646 79cf 8895 09cf fced 3788 0efa
+| SHA-1:   1d17 b6be 05ed 4e2b ccd2 8edc ea5a 9452 31ec 0acb
+|_SHA-256: 1c98 b338 b73e b737 05bf 6bfc f859 f15e 8fcc 0430 83bd 5376 e6e3 bb99 d129 8879
+
+Nmap scan report for mail.moov-africa.ci (154.0.31.10)
+Host is up (0.023s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+| ssl-cert: Subject: commonName=mail.moov-africa.ci/organizationName=Moov AFRICA CI/countryName=CI
+| Subject Alternative Name: DNS:mail.moov-africa.ci, DNS:smtp.moov-africa.ci, DNS:mail.etisalat-africa.net, DNS:autodiscover.etisalat-africa.net, DNS:autodiscover.moov-africa.ci, DNS:autodiscover.moov.com, DNS:autodiscover.moovmoney.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-08T00:00:00
+| Not valid after:  2026-09-11T23:59:59
+| MD5:     efc5 8577 0f8f ff2f 50b4 2196 24ed 9c70
+| SHA-1:   e59a df9e 12f3 dcd5 51dd 3f27 de54 ea46 c561 c2af
+|_SHA-256: a934 e59e 983c 94e7 6b4f c0d2 27df a493 b23b 3cc1 c360 d170 5605 51cd 8355 6863
+
+Nmap scan report for moov-africa.ci (45.60.129.11)
+Host is up (0.018s latency).
+Other addresses for moov-africa.ci (not scanned): 45.60.123.11
+
+PORT    STATE SERVICE
+80/tcp  open  http
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+443/tcp open  https
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+
+Nmap scan report for moovtones.moov-africa.ci (41.191.68.5)
+Host is up (0.022s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+| ssl-cert: Subject: commonName=*.moov-africa.ci/organizationName=Moov AFRICA CI/countryName=CI
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci, DNS:moovtones.moov-africa.ci, DNS:mbs2.moov-africa.ci, DNS:moovsite.moov-africa.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-11-06T00:00:00
+| Not valid after:  2026-11-24T23:59:59
+| MD5:     4a9d a44b b7df 1ffc 7cbc e017 9dac b4df
+| SHA-1:   90db 97ef 9bdf e4b7 c315 5fc5 dc24 3afc 470b 8a61
+|_SHA-256: 9b42 a415 1df4 6f97 b44d b3c0 eff9 e5c5 7391 438a 4cb3 d327 a282 439a 48a3 20d1
+
+Nmap scan report for myline.moov-africa.ci (41.191.70.9)
+Host is up (0.029s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mymoov.moov-africa.ci (154.0.24.155)
+Host is up (0.020s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+| ssl-cert: Subject: commonName=mymoov.moov-africa.ci/organizationName=MOOV AFRICA (siege)/stateOrProvinceName=District Autonome d'Abidjan/countryName=CI
+| Subject Alternative Name: DNS:mymoov.moov-africa.ci
+| Issuer: commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-07-10T00:00:00
+| Not valid after:  2026-07-22T23:59:59
+| MD5:     0533 19c4 4268 83de a42c d21b 69bb 8c3b
+| SHA-1:   754c 2c85 a72a a823 982c 4328 5207 6e66 3448 b52c
+|_SHA-256: f5ba fd6c 8735 19d2 1b87 afe6 7eae a3c4 71de 7eb4 bc56 c261 6208 81fe 7268 c642
+
+Nmap scan report for selfcare-staging.moov-africa.ci (135.125.76.128)
+Host is up (0.023s latency).
+rDNS record for 135.125.76.128: ip128.ip-135-125-76.eu
+
+PORT    STATE SERVICE
+80/tcp  open  http
+| ssl-cert: Subject: commonName=selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:selfcare-staging.moov-africa.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-02T19:51:51
+| Not valid after:  2026-07-31T19:51:50
+| MD5:     f13b ccb8 d3bb 68a7 d257 45b6 76c8 7238
+| SHA-1:   04b4 c770 5eed 9c95 51f1 1baf d4f4 3e20 b02d e566
+|_SHA-256: 655a 994b 8bcb 8868 dbc8 0706 991d 9619 7cd3 8751 bb43 486c 1f03 5cf6 89b5 fdc5
+443/tcp open  https
+| ssl-cert: Subject: commonName=selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:selfcare-staging.moov-africa.ci
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-02T19:51:51
+| Not valid after:  2026-07-31T19:51:50
+| MD5:     f13b ccb8 d3bb 68a7 d257 45b6 76c8 7238
+| SHA-1:   04b4 c770 5eed 9c95 51f1 1baf d4f4 3e20 b02d e566
+|_SHA-256: 655a 994b 8bcb 8868 dbc8 0706 991d 9619 7cd3 8751 bb43 486c 1f03 5cf6 89b5 fdc5
+
+Nmap scan report for smtp.moov-africa.ci (154.0.31.9)
+Host is up (0.033s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for storage.selfcare-staging.moov-africa.ci (135.125.76.128)
+Host is up (0.021s latency).
+rDNS record for 135.125.76.128: ip128.ip-135-125-76.eu
+
+PORT    STATE SERVICE
+80/tcp  open  http
+| ssl-cert: Subject: commonName=storage.selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:storage.selfcare-staging.moov-africa.ci
+| Issuer: commonName=R12/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-06T15:36:06
+| Not valid after:  2026-08-04T15:36:05
+| MD5:     89ee 40b9 f3bc d7e6 1d05 94c1 35e4 3c16
+| SHA-1:   9a0e 310a 532b 21fc baeb 0455 7b22 c936 a1c1 38b4
+|_SHA-256: a5c6 084a 695f e350 46c9 a3e1 bd64 25c0 bba2 d9ea 705d fc0a c9b1 c626 22d4 0701
+443/tcp open  https
+| ssl-cert: Subject: commonName=storage.selfcare-staging.moov-africa.ci
+| Subject Alternative Name: DNS:storage.selfcare-staging.moov-africa.ci
+| Issuer: commonName=R12/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-06T15:36:06
+| Not valid after:  2026-08-04T15:36:05
+| MD5:     89ee 40b9 f3bc d7e6 1d05 94c1 35e4 3c16
+| SHA-1:   9a0e 310a 532b 21fc baeb 0455 7b22 c936 a1c1 38b4
+|_SHA-256: a5c6 084a 695f e350 46c9 a3e1 bd64 25c0 bba2 d9ea 705d fc0a c9b1 c626 22d4 0701
+
+Nmap scan report for www.moov-africa.ci (45.60.123.11)
+Host is up (0.021s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+443/tcp open  https
+| ssl-cert: Subject: commonName=*.moov-africa.ci
+| Subject Alternative Name: DNS:*.moov-africa.ci, DNS:moov-africa.ci
+| Issuer: commonName=GoGetSSL RSA DV CA/organizationName=GoGetSSL/countryName=LV
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-03-26T00:00:00
+| Not valid after:  2026-10-10T23:59:59
+| MD5:     2bb6 bb28 412f 0850 4638 7656 b782 4a1b
+| SHA-1:   f02d bf6a 900a c71b e41d bf16 e7d8 d5a6 7118 a6dd
+|_SHA-256: 2254 2c66 a8c1 649b e825 3570 0c4f f582 1ad2 5d07 ecf7 1832 eaa5 67ed 08a9 5711
+
+Nmap scan report for zerodefaut.moov-africa.ci (40.85.140.236)
+Host is up (0.018s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+| ssl-cert: Subject: commonName=zerodefaut.moov-africa.ci
+| Subject Alternative Name: DNS:zerodefaut.moov-africa.ci
+| Issuer: commonName=Sectigo Public Server Authentication CA DV R36/organizationName=Sectigo Limited/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha384WithRSAEncryption
+| Not valid before: 2025-06-12T00:00:00
+| Not valid after:  2026-07-12T23:59:59
+| MD5:     08b7 6a99 67d1 ba0a 4737 0509 08a8 a3dc
+| SHA-1:   de39 50ff 1a75 e4af 5865 e20b 902d 528e 43b7 2499
+|_SHA-256: eac8 8929 930b c122 47dc 373b fcf7 f3b0 eea3 cda2 0fea 0182 2c31 be3e ec06 087e
+
+# Nmap done at Wed Jul  1 01:33:02 2026 -- 13 IP addresses (13 hosts up) scanned in 20.13 seconds
+Nmap scan report for portal.orange.ci (172.20.10.1)
+Not valid after: 2026-05-12T12:00:00
+Nmap scan report for backend.mtn.ci (105.235.1.5)
+Not valid after: 2025-12-25T00:00:00
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-01 04:51 +0000
+Nmap scan report for orange.ci (154.68.9.46)
+Host is up (0.016s latency).
+Other addresses for orange.ci (not scanned): 160.154.2.25 41.66.15.246
+rDNS record for 154.68.9.46: OCI-154.68.9.46.aviso.ci
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-cert: Subject: commonName=*.orange.ci
+| Subject Alternative Name: DNS:*.orange.ci, DNS:orange.ci
+| Issuer: commonName=Sectigo Public Server Authentication CA DV R36/organizationName=Sectigo Limited/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-02T00:00:00
+| Not valid after:  2026-09-08T23:59:59
+| MD5:     184e fc7f 51c3 14aa 1a02 e5fe 7806 9956
+| SHA-1:   3cef 26aa f8f4 bc09 ae2c e1ba 4516 1c0a 9c8e 8048
+|_SHA-256: ee77 6079 6acd 6b48 cdd5 ab36 5f7d 298c d644 a64a 732a 62b6 8b05 e612 1f10 90a6
+
+Nmap scan report for mtn.ci (162.159.135.42)
+Host is up (0.013s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-cert: Subject: commonName=mtn.ci
+| Subject Alternative Name: DNS:*.mtn.ci, DNS:mtn.ci
+| Issuer: commonName=YE2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-07T01:54:51
+| Not valid after:  2026-09-05T01:54:50
+| MD5:     f732 717b 6d0c 5e90 83b6 eae2 d0df e866
+| SHA-1:   7e9d ca0c 2cc8 0e81 e163 29dc 0761 bd5d 530b 329f
+|_SHA-256: be04 a542 8791 63b1 bcef 4cac 6792 a693 3b13 3f50 37a7 e6b7 775b 3b61 0173 a65c
+
+Nmap done: 2 IP addresses (2 hosts up) scanned in 2.87 seconds
+Nmap scan report for admin.orange.ci (172.20.10.5)
+23/tcp open  telnet
+Nmap scan report for core.mtn.ci (105.235.1.9)
+22/tcp open  ssh
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-01 16:24 +0000
+Nmap scan report for orange.ci (41.66.15.246)
+Host is up (0.025s latency).
+Other addresses for orange.ci (not scanned): 154.68.9.46 160.154.2.25
+rDNS record for 41.66.15.246: Adsl-41.66.15.246.aviso.ci
+
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+26/tcp    open  rsftp
+37/tcp    open  time
+53/tcp    open  domain
+79/tcp    open  finger
+80/tcp    open  http
+81/tcp    open  hosts2-ns
+88/tcp    open  kerberos-sec
+106/tcp   open  pop3pw
+110/tcp   open  pop3
+111/tcp   open  rpcbind
+113/tcp   open  ident
+119/tcp   open  nntp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+144/tcp   open  news
+179/tcp   open  bgp
+199/tcp   open  smux
+389/tcp   open  ldap
+427/tcp   open  svrloc
+443/tcp   open  https
+444/tcp   open  snpp
+445/tcp   open  microsoft-ds
+465/tcp   open  smtps
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+548/tcp   open  afp
+554/tcp   open  rtsp
+587/tcp   open  submission
+631/tcp   open  ipp
+646/tcp   open  ldp
+873/tcp   open  rsync
+990/tcp   open  ftps
+993/tcp   open  imaps
+995/tcp   open  pop3s
+1025/tcp  open  NFS-or-IIS
+1026/tcp  open  LSA-or-nterm
+1027/tcp  open  IIS
+1028/tcp  open  unknown
+1029/tcp  open  ms-lsa
+1110/tcp  open  nfsd-status
+1433/tcp  open  ms-sql-s
+1720/tcp  open  h323q931
+1723/tcp  open  pptp
+1755/tcp  open  wms
+1900/tcp  open  upnp
+2000/tcp  open  cisco-sccp
+2001/tcp  open  dc
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2717/tcp  open  pn-requester
+3000/tcp  open  ppp
+3128/tcp  open  squid-http
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+3986/tcp  open  mapper-ws_ethd
+4899/tcp  open  radmin
+5000/tcp  open  upnp
+5009/tcp  open  airport-admin
+5051/tcp  open  ida-agent
+5060/tcp  open  sip
+5101/tcp  open  admdog
+5190/tcp  open  aol
+5357/tcp  open  wsdapi
+5432/tcp  open  postgresql
+5631/tcp  open  pcanywheredata
+5666/tcp  open  nrpe
+5800/tcp  open  vnc-http
+5900/tcp  open  vnc
+6000/tcp  open  X11
+6001/tcp  open  X11:1
+6646/tcp  open  unknown
+7070/tcp  open  realserver
+8000/tcp  open  http-alt
+8008/tcp  open  http
+8009/tcp  open  ajp13
+8080/tcp  open  http-proxy
+8081/tcp  open  blackice-icecap
+8443/tcp  open  https-alt
+8888/tcp  open  sun-answerbook
+9100/tcp  open  jetdirect
+9999/tcp  open  abyss
+10000/tcp open  snet-sensor-mgmt
+32768/tcp open  filenet-tms
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for mtn.ci (162.159.135.42)
+Host is up (0.025s latency).
+
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+26/tcp    open  rsftp
+37/tcp    open  time
+53/tcp    open  domain
+79/tcp    open  finger
+80/tcp    open  http
+81/tcp    open  hosts2-ns
+88/tcp    open  kerberos-sec
+106/tcp   open  pop3pw
+110/tcp   open  pop3
+111/tcp   open  rpcbind
+113/tcp   open  ident
+119/tcp   open  nntp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+144/tcp   open  news
+179/tcp   open  bgp
+199/tcp   open  smux
+389/tcp   open  ldap
+427/tcp   open  svrloc
+443/tcp   open  https
+| ssl-cert: Subject: commonName=mtn.ci
+| Subject Alternative Name: DNS:*.mtn.ci, DNS:mtn.ci
+| Issuer: commonName=YE2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-07T01:54:51
+| Not valid after:  2026-09-05T01:54:50
+| MD5:     f732 717b 6d0c 5e90 83b6 eae2 d0df e866
+| SHA-1:   7e9d ca0c 2cc8 0e81 e163 29dc 0761 bd5d 530b 329f
+|_SHA-256: be04 a542 8791 63b1 bcef 4cac 6792 a693 3b13 3f50 37a7 e6b7 775b 3b61 0173 a65c
+444/tcp   open  snpp
+445/tcp   open  microsoft-ds
+465/tcp   open  smtps
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+548/tcp   open  afp
+554/tcp   open  rtsp
+587/tcp   open  submission
+631/tcp   open  ipp
+646/tcp   open  ldp
+873/tcp   open  rsync
+990/tcp   open  ftps
+993/tcp   open  imaps
+995/tcp   open  pop3s
+1025/tcp  open  NFS-or-IIS
+1026/tcp  open  LSA-or-nterm
+1027/tcp  open  IIS
+1028/tcp  open  unknown
+1029/tcp  open  ms-lsa
+1110/tcp  open  nfsd-status
+1433/tcp  open  ms-sql-s
+1720/tcp  open  h323q931
+1723/tcp  open  pptp
+1755/tcp  open  wms
+1900/tcp  open  upnp
+2000/tcp  open  cisco-sccp
+2001/tcp  open  dc
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2717/tcp  open  pn-requester
+3000/tcp  open  ppp
+3128/tcp  open  squid-http
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+3986/tcp  open  mapper-ws_ethd
+4899/tcp  open  radmin
+5000/tcp  open  upnp
+5009/tcp  open  airport-admin
+5051/tcp  open  ida-agent
+5060/tcp  open  sip
+5101/tcp  open  admdog
+5190/tcp  open  aol
+5357/tcp  open  wsdapi
+5432/tcp  open  postgresql
+5631/tcp  open  pcanywheredata
+5666/tcp  open  nrpe
+5800/tcp  open  vnc-http
+5900/tcp  open  vnc
+6000/tcp  open  X11
+6001/tcp  open  X11:1
+6646/tcp  open  unknown
+7070/tcp  open  realserver
+8000/tcp  open  http-alt
+8008/tcp  open  http
+8009/tcp  open  ajp13
+8080/tcp  open  http-proxy
+8081/tcp  open  blackice-icecap
+8443/tcp  open  https-alt
+| ssl-cert: Subject: commonName=mtn.ci
+| Subject Alternative Name: DNS:*.mtn.ci, DNS:mtn.ci
+| Issuer: commonName=YE2/organizationName=Let's Encrypt/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA384
+| Not valid before: 2026-06-07T01:54:51
+| Not valid after:  2026-09-05T01:54:50
+| MD5:     f732 717b 6d0c 5e90 83b6 eae2 d0df e866
+| SHA-1:   7e9d ca0c 2cc8 0e81 e163 29dc 0761 bd5d 530b 329f
+|_SHA-256: be04 a542 8791 63b1 bcef 4cac 6792 a693 3b13 3f50 37a7 e6b7 775b 3b61 0173 a65c
+8888/tcp  open  sun-answerbook
+9100/tcp  open  jetdirect
+9999/tcp  open  abyss
+10000/tcp open  snet-sensor-mgmt
+32768/tcp open  filenet-tms
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap done: 2 IP addresses (2 hosts up) scanned in 936.62 seconds
